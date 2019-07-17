@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Today's Time</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'displayTime/css/style.css' %}">
+</head>
+<body>
+    <div id="container">
+        <p>Current date and time</p>
+        <div id="clock">
+            <h3>{{date}}</h3>
+            <h3>{{time}}</h3>
+        </div>
+
+
+
+    </div>
+</body>
+</html>

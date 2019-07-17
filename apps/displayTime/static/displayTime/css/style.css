@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+}
+
+#container {
+    margin: auto;
+    width: 260px;
+}
+
+p {
+    font-size: 24px;
+    border: 2px solid black;
+}
+
+#clock {
+    border: 2px solid black;
+}
